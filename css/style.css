@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial;
+    color: white;
+}
+
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.cabeca{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1700px;
+    top: 50px;
+    left: 110px;
+}
+
+.cabeca a{
+    background: red;
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    padding: 8px 12px;
+}
+
+.cabeca a2{
+    color: white;
+    font-size: 30px;
+}
+
+.logo{
+    height: 1050px;
+    background: url("../imagens/Fundo.jpg") center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.logo-texto{
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+}
+
+.logo h1{
+    font-size: 80px;
+    margin: 0 auto;
+    max-width: 1250px;
+}
+
+.logo h2{
+    font-size: 40px;
+}
+
+.logo h3{
+    font-size: 30px;
+}
+
+.form-barra{
+    display: grid;
+    grid-template-columns: 800px 250px;
+}
+
+.form-barra input{
+    padding: 35px 15px;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.form-barra button{
+    background: red;
+    border: none;
+    color: white;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.transparencia{
+    background: rgba(0,0,0,.4);
+    background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 40%,transparent 75%,rgba(0,0,0,.8));
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.section {
+    background: black;
+    padding: 4rem 0;
+}
+
+.section h4{
+    font-size: 70px;
+}
+
+.section p{
+    font-size: 38px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-tv{
+    position: relative;
+}
+
+.img-tv img{
+    position: relative;
+    z-index: 1;
+}
+
+.video-tv{
+    position: absolute;
+    top: 95px;
+    left: 72px;
+
+}
+
+.assista .video-tv{
+    width: 415px;
+    top: 50px;
+    left: 110px;
+    right: 100px;
+}
